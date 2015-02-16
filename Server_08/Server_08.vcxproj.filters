@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{143ad937-9a4e-4ca6-8bce-28488fc6dfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Manager">
+      <UniqueIdentifier>{02d730ed-cdd8-4bd3-abe1-b4aa8d12c9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Recv">
+      <UniqueIdentifier>{733fcdde-2486-4ca7-9170-85c6a3acc507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Send">
+      <UniqueIdentifier>{86694d96-a005-4260-9353-9a97273745e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Check">
+      <UniqueIdentifier>{5a6c7216-0f03-440f-96fa-ec4d5b2af78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Container">
+      <UniqueIdentifier>{8726ac53-f6ef-4c14-868a-9da9436ea7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Stack">
+      <UniqueIdentifier>{7ee2e1e7-4ab4-423a-aeb1-9b5af31e9078}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SV\cpp\C_SVManager.cpp">
+      <Filter>Class\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SV\cpp\Manager_Init.cpp">
+      <Filter>Class\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SV\cpp\C_CommCheck.cpp">
+      <Filter>Class\Check</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SV\cpp\C_SVRecv.cpp">
+      <Filter>Class\Recv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SV\cpp\C_SVSend.cpp">
+      <Filter>Class\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SV\cpp\C_SVDataContainer.cpp">
+      <Filter>Class\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SV\h\C_SVManager.h">
+      <Filter>Class\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\C_CommCheck.h">
+      <Filter>Class\Check</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\C_SVRecv.h">
+      <Filter>Class\Recv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\C_SVSend.h">
+      <Filter>Class\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\Manager_PrivateStruct.h">
+      <Filter>Class\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\C_SVDataContainer.h">
+      <Filter>Class\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\SV_Const.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\SV_IncludeHeader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\SV_ShareStruct.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\FrameWorkMessage.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\Manager_PrivateConst.h">
+      <Filter>Class\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\C_Stack.h">
+      <Filter>Class\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SV\h\C_StackData.h">
+      <Filter>Class\Stack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="課題.txt" />
+  </ItemGroup>
+</Project>
